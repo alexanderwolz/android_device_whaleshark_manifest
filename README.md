@@ -1,0 +1,1 @@
+# android_device_whaleshark_manifest
