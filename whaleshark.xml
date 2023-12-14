@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- see also https://gerrit.googlesource.com/git-repo/+/master/docs/manifest-format.md#Local-Manifests -->
+<manifest>
+    <remote name="alexanderwolz" fetch="https://github.com/alexanderwolz"/>
+    <project path="device/alexanderwolz/whaleshark/common" name="android_device_whaleshark_common" remote="alexanderwolz" revision="android-12" />  
+    <project path="device/alexanderwolz/whaleshark/emulator" name="android_device_whaleshark_emulator" remote="alexanderwolz" revision="android-12" />
+</manifest>
