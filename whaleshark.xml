@@ -5,5 +5,9 @@
     <remote name="alexanderwolz" fetch="https://github.com/alexanderwolz"/>
     <project path="device/alexanderwolz/whaleshark/common" name="android_device_whaleshark_common" remote="alexanderwolz" revision="android-13" />  
     <project path="device/alexanderwolz/whaleshark/emulator" name="android_device_whaleshark_emulator" remote="alexanderwolz" revision="android-13" />
-    <project path="device/alexanderwolz/whaleshark/tangorpro" name="android_device_whaleshark_tangorpro" remote="alexanderwolz" revision="android-13" />
+    <project path="device/alexanderwolz/whaleshark/tangorpro" name="android_device_whaleshark_tangorpro" remote="alexanderwolz" revision="android-13">
+        <!-- needed to build tangorpro automotive due to PHONE_CAR_BOARD_PRODUCT -->
+        <linkfile src="BoardConfig.vendor.mk" dest="vendor/auto/embedded/products/whaleshark_tangorpro/BoardConfig.mk" />
+    </project>
+
 </manifest>
