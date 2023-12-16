@@ -10,4 +10,7 @@
         <linkfile src="BoardConfig.vendor.mk" dest="vendor/auto/embedded/products/whaleshark_tangorpro/BoardConfig.mk" />
     </project>
 
+    <!-- workaround for missing module "mockito-kotlin2" bug in android-14.0.0_r17 -->
+    <project path="platform/external/mockito-kotlin2" name="platform/external/mockito-kotlin" revision="main" />
+
 </manifest>
