@@ -6,8 +6,4 @@
     <project path="device/alexanderwolz/whaleshark/common" name="android_device_whaleshark_common" remote="alexanderwolz" revision="android-14" />  
     <project path="device/alexanderwolz/whaleshark/emulator" name="android_device_whaleshark_emulator" remote="alexanderwolz" revision="android-14" />
     <project path="device/alexanderwolz/whaleshark/tangorpro" name="android_device_whaleshark_tangorpro" remote="alexanderwolz" revision="android-14" />
-
-    <!-- workaround for missing module "mockito-kotlin2" bug in android-14.0.0_r17 -->
-    <project path="platform/external/mockito-kotlin2" name="platform/external/mockito-kotlin" revision="main" />
-
 </manifest>

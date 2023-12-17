@@ -34,12 +34,3 @@ This follows the normal AOSP build approach, e.g.
 2. ```lunch``` (choose your device)
 4. ```m -j$(nproc --all)```
 6. See compiled files at ```$ANDROID_PRODUCT_OUT``` (should be ```out/target/product/```)
-
-
-## 🧑‍💻 Known Issues
-
-### android-14.0.0_r18
-
-1. There is a missing platform dependency in the manifest (mockito-kotlin)
-2. There is a wrong dependency in a unit test class, that breaks building from branch android-14.0.0_r17
-3. See [this ticket](https://issuetracker.google.com/issues/315964558) for status
