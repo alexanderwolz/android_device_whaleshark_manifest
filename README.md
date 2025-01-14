@@ -11,7 +11,7 @@ This repository contains the local manifest definition for Whale Shark AAOS.
 
 ## 🛠️ Setup
 
-This product is currently being tested against *AP3A.241105.007* (android-15.0.0_r4)
+This product is currently being tested against *AP4A.250105.002* (android-15.0.0_r12)
 
 See [Android tags](https://source.android.com/docs/setup/about/build-numbers) for other build ids and branches
 
@@ -20,7 +20,7 @@ See [Android tags](https://source.android.com/docs/setup/about/build-numbers) fo
 Clone this repository into the *.repo/local_manifest* folder of your AOSP root, such as:
 
 1. ```cd $AOSP_HOME``` (this is a placeholder for your workdir)
-1. ```repo init -u https://android.googlesource.com/platform/manifest -b android-15.0.0_r4```
+1. ```repo init -u https://android.googlesource.com/platform/manifest -b android-15.0.0_r12```
 2. ```git clone https://github.com/alexanderwolz/android_device_whaleshark_manifest.git -b android-15 .repo/local_manifests```
 3. ```repo sync -c -j$(nproc --all)```
 
